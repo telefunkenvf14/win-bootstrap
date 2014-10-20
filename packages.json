@@ -1,0 +1,42 @@
+{
+  "list": [
+    "Console2",
+    "pscx",
+    "Far",
+    "7zip.install",
+    "sysinternals",
+    "daemontoolslite",
+    "k-litecodecpackbasic",
+
+    "GoogleChrome",
+    "Firefox",
+    "evernote",
+    "dropbox",
+    "adobereader",
+    "vlc",
+    "skype",
+    "foobar2000",
+    "spotify",
+
+    "SublimeText3",
+    "vim",
+
+    "keepass",
+    "truecrypt",
+
+    "putty",
+    "rdcman",
+
+    "git",
+    "poshgit",
+    "fiddler4",
+    "winmerge",
+    "baretail",
+
+    "virtualbox",
+
+    "ruby",
+    "ruby2.devkit",
+    "nodejs.install"
+  ]
+}
