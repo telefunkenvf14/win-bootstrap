@@ -12,7 +12,7 @@ $packages = $json | Out-String | ConvertFrom-Json
 
 foreach ($app in $packages.list) {
   Write-Host "Installing: $app"
-  #choco install $app
+  choco install $app
 }
 
 Write-Host [INFO] (Get-Date).ToLongTimeString(): "Running post-install scripts" -Foreground "Green"
