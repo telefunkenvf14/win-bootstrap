@@ -1,7 +1,7 @@
 Write-Host [INFO] (Get-Date).ToLongTimeString(): "Configuring git"  -Foreground "Green"
 
 # Configure user profile to include git into the PATH
-'$env:path += ";" + (Get-Item "Env:ProgramFiles(x86)").Value + "\Git\bin"'' >> $profile
+'$env:path += ";" + (Get-Item "Env:ProgramFiles(x86)").Value + "\Git\bin"' >> $profile
 # Add git to PATH for current session to be able to configure it futher
 $env:path += ";" + (Get-Item "Env:ProgramFiles(x86)").Value + "\Git\bin"
 
@@ -33,7 +33,7 @@ git config --global difftool.prompt false
 
 # A few color tweaks for Powershell
 git config --global color.status.changed "cyan normal bold"
-git config --global color.status.untracked "magenta normal bold
+git config --global color.status.untracked "magenta normal bold"
 
 # Setting up Git prompt colors for Powershell
 '$global:GitPromptSettings.WorkingForegroundColor = [ConsoleColor]::Yellow' >> $profile
